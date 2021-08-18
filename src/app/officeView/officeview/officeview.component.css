@@ -1,0 +1,48 @@
+.menu{
+    /* flex:1 1 auto; */
+    float:right;
+}
+
+.staff{
+    list-style-type: none;
+}
+.staff-card{
+    margin: 10px;
+
+    
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
+    background-size: cover;
+  }
+ .people-icon{
+    position: absolute;
+    right: 16px;
+    font-size: 18px;
+ } 
+ .menu-edit-icon{
+  position: absolute;
+  left: 65%;
+ }
+ .menu-remove-icon{
+  position: absolute;
+  left: 65%;
+  top: 21%;
+
+ }
+   
+.menu-edit {
+  position: absolute;
+  right: 69%;
+  top: 30%;
+ }
+ .menu-remove{
+  position: absolute;
+  right: 54%;
+  top: 3%;
+ }

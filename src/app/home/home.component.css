@@ -1,0 +1,88 @@
+.spacer{
+    flex:1 1 auto;
+
+}
+
+.menu{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .offices{
+    list-style-type: none;
+  }
+
+  .example-card {
+    max-width: 400px;
+    margin: 10px;
+    padding: 0px !important;
+  }
+  
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  mat-toolbar{
+    background: linear-gradient(to bottom, rgb(209 222 228) 0%, #2692c1 100%);
+  }
+ .iconTile{ background: linear-gradient(to bottom, rgb(209 222 228) 0%, #2692c1 100%);}
+
+ .people-icon{
+  position: absolute;
+  top: 13%;
+  left: 65%;
+ }
+ .menu-edit-icon{
+  position: absolute;
+  left: 65%;
+ }
+ .menu-remove-icon{
+  position: absolute;
+  left: 65%;
+  top: 21%;
+
+ }
+   
+.menu-edit {
+  position: absolute;
+  right: 69%;
+  top: 30%;
+ }
+ .menu-remove{
+  position: absolute;
+  right: 54%;
+  top: 3%;
+ }
+ .email{
+  left: 10%;
+  position: absolute;
+  color:#2692c1;
+ }
+ .tell{
+  position: absolute;
+  right: 12%;
+  color:#2692c1;
+}
+.office-address{
+  position: absolute;
+  bottom: 0%;
+  font-weight: lighter;
+}
+ .office-name{
+  font-weight: bold;
+
+ }
+ .phone-icon{
+  bottom: 26px;
+  font-size: 16px;
+  position: absolute;
+  right: 24%;
+ }
+ 
+ 
